@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@include media-breakpoint-down(md) { 
+    header {
+        background-image: url(../images/bg-hero-mobile.svg);
+        background-color: hsl(193, 100%, 96%);
+    }
+
+    nav {
+        .container{
+            img {
+                width: 25%;
+            }
+        }
+    }
+}
